@@ -1,0 +1,17 @@
+{
+    "name": "dimitricasierhowest/laravel-package",
+    "authors": [
+        {
+            "name": "Dimiri Casier",
+            "email": "dimitri.casier@howest.be"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dimitricasierhowest\\LaravelPackage\\src\\LaravelPackageServiceProvider"
+            ]
+        }
+    }
+}
