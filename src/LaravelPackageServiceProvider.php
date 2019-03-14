@@ -4,7 +4,7 @@ namespace Dimitricasierhowest\LaravelPackage;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelPackageProvider extends ServiceProvider
+class LaravelPackageServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
