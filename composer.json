@@ -7,10 +7,15 @@
         }
     ],
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dimitricasierhowest\\LaravelPackage\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
-                "Dimitricasierhowest\\LaravelPackage\\src\\LaravelPackageServiceProvider"
+                "Dimitricasierhowest\\LaravelPackage\\LaravelPackageServiceProvider"
             ]
         }
     }
