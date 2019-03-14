@@ -7,5 +7,5 @@
  */
 
 return [
-
+    'author' => 'dimitri.casier@howest.be'
 ];

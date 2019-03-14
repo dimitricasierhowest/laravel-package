@@ -7,5 +7,5 @@
  */
 
 \Route::get('/laravel-package', function(){
-   return 'You did it!' . __('laravel-package::app.hello');
+   return 'You did it!' . __('laravel-package::app.hello') . config('laravel-package.author');
 });
